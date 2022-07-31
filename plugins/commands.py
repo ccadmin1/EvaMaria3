@@ -46,7 +46,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('Updates Channel', url='https://t.me/+vNp8jUAFe79iZDFl')],[
 
-            InlineKeyboardButton('Series Bots', url='https://t.me/+sBkYq984blhkY2E9')
+            InlineKeyboardButton('Series Group', url='https://t.me/+sBkYq984blhkY2E9')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -90,7 +90,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('Updates Channel', url='https://t.me/+vNp8jUAFe79iZDFl')],[
 
-            InlineKeyboardButton('Series Bots', url='https://t.me/+sBkYq984blhkY2E9')
+            InlineKeyboardButton('Series Group', url='https://t.me/+sBkYq984blhkY2E9')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
